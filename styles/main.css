@@ -1,0 +1,65 @@
+main {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  column-gap: 84px;
+  flex: 1;
+  padding: 50px 80px;
+  justify-content: space-between;
+}
+.main_info {
+  height: 100%;
+  max-width: 800px;
+  margin-top: 250px;
+}
+.main_info h1 {
+  color: var(--cinza-medio);
+  font-size: 80px;
+  letter-spacing: -5px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.main_info h2 {
+  color: var(--azul-claro);
+  font-size: 40px;
+  line-height: 0.9;
+  margin-bottom: 32px;
+}
+.main_info p {
+  color: var(--cinza-medio);
+  font-size: 18px;
+  line-height: 2;
+  text-align: justify;
+}
+
+.laptop {
+  display: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden !important; /* Impede que a imagem vaze */
+}
+
+.laptop button {
+  position: absolute;
+  background: var(--azul-claro);
+  border: none;
+  height: 180px;
+  width: 180px;
+  border-radius: 100%;
+  font-size: 18px;
+  strong{
+    font-size: 50px;
+  }
+  cursor: pointer;
+}
+
+.laptop img {
+  filter: var(--shadow-image);
+  position: absolute;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  object-fit: cover;
+  
+}

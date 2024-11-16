@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--azul-primario);
+  align-items: center;
+  padding: 15px;
+}
+.logo {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+  transition: all 0.6s;
+}
+.logo img:hover {
+  filter: grayscale(0.6);
+  opacity: 0.6;
+}
+.nav {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+.nav a {
+  font-size: 18px;
+  position: relative;
+  font-weight: 600;
+  margin-right: 5px;
+  transition: all 0.6s;
+  padding: 15px; /* Adicione o padding desde o início */
+  border-radius: 25px; /* Adicione o border-radius fixo */
+  background: transparent; /* Inicialmente sem fundo */
+}
+.nav a:hover {
+  background: rgba(0, 0, 0, 0.1);
+}

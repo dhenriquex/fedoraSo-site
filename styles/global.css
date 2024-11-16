@@ -1,0 +1,26 @@
+@import url("./header.css");
+@import url("./main.css");
+*{
+    margin: 0;
+    padding: 0;
+    color: #eee;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+:root{
+    --azul-primario:#294172;
+    --azul-claro:  rgb(25, 81, 131);
+    --backgorund-color: linear-gradient(to bottom, #A0C8FF, #4169E1);
+    --shadow-image: drop-shadow(rgba(0, 0, 0, 0.35) 0px 3px 8px);
+    --cinza-medio:#303030;
+    --conza-escuro:#1F1F1F;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font: 800 1rem "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: var(--backgorund-color);
+}
